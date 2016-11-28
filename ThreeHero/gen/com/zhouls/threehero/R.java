@@ -22,21 +22,68 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int tra_usual_btn_normal=0x7f020001;
+        public static final int tra_usual_btn_pressed=0x7f020002;
+        public static final int tra_usualbtneffect=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f080008;
+        public static final int action_settings=0x7f08002e;
         public static final int controller=0x7f080001;
-        public static final int lib_controller_attack=0x7f080006;
-        public static final int lib_controller_jump=0x7f080007;
-        public static final int lib_controller_left=0x7f080003;
-        public static final int lib_controller_move=0x7f080002;
-        public static final int lib_controller_right=0x7f080004;
-        public static final int lib_controller_skill=0x7f080005;
+        public static final int g_v=0x7f080002;
+        public static final int gv_near_hot=0x7f08002b;
+        public static final int gv_near_sub_item=0x7f08002c;
+        public static final int ib_mode_s_back=0x7f080023;
+        public static final int ib_mode_s_delete=0x7f080026;
+        public static final int ib_mode_s_voice=0x7f080028;
+        public static final int iv_detail_back=0x7f08000b;
+        public static final int iv_detail_cancel=0x7f08000c;
+        public static final int iv_detail_more=0x7f08001d;
+        public static final int iv_detail_navi=0x7f080017;
+        public static final int iv_detail_near=0x7f08001c;
+        public static final int iv_detail_route=0x7f080019;
+        public static final int iv_mode_s_load=0x7f080027;
+        public static final int iv_poi_detail=0x7f080015;
+        public static final int lib_controller_attack=0x7f080007;
+        public static final int lib_controller_jump=0x7f080008;
+        public static final int lib_controller_left=0x7f080004;
+        public static final int lib_controller_move=0x7f080003;
+        public static final int lib_controller_right=0x7f080005;
+        public static final int lib_controller_skill=0x7f080006;
+        public static final int ll_detail_more_bg=0x7f08001a;
+        public static final int ll_detail_name_bg=0x7f08000d;
+        public static final int ll_detail_navi=0x7f080016;
+        public static final int ll_detail_route=0x7f080018;
+        public static final int ll_maode_s_titlebar=0x7f080022;
+        public static final int ll_near_hot=0x7f08002a;
+        public static final int ll_near_item=0x7f080029;
+        public static final int ll_search_bg=0x7f080024;
+        public static final int rl_detail_infomation=0x7f08000f;
+        public static final int rl_detail_more=0x7f08001b;
+        public static final int rl_detail_title=0x7f08000a;
+        public static final int rl_poi_detail=0x7f080010;
         public static final int three=0x7f080000;
+        public static final int tv_detail_address=0x7f080011;
+        public static final int tv_detail_busstation=0x7f080020;
+        public static final int tv_detail_gasstation=0x7f08001e;
+        public static final int tv_detail_km=0x7f080012;
+        public static final int tv_detail_knumber=0x7f080013;
+        public static final int tv_detail_map=0x7f080014;
+        public static final int tv_detail_name=0x7f08000e;
+        public static final int tv_detail_park=0x7f08001f;
+        public static final int tv_detail_subwaystation=0x7f080021;
+        public static final int tv_mode_s_search=0x7f080025;
+        public static final int tv_name=0x7f080009;
+        public static final int tv_search_food=0x7f08002d;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int lib_controller=0x7f030001;
+        public static final int gv=0x7f030001;
+        public static final int lib_controller=0x7f030002;
+        public static final int tra_gridview_item=0x7f030003;
+        public static final int tra_gridview_item_two=0x7f030004;
+        public static final int tra_layout_poi_detail=0x7f030005;
+        public static final int tra_layout_search_near=0x7f030006;
+        public static final int tra_layout_search_near_item=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f070000;

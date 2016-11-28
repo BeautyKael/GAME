@@ -7,7 +7,7 @@
  */
 package com.zhouls.threehero.ui.manager;
 
-import android.graphics.drawable.Drawable;
+import android.graphics.Bitmap;
 
 /**
  * Àà×¢ÊÍ
@@ -19,7 +19,7 @@ public class HotSpot {
 
 	public float x;
 	public float y;
-	public Drawable img;
+	public Bitmap img;
 	public String txt;
 
 }
