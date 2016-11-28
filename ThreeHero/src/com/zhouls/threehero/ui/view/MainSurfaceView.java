@@ -257,10 +257,8 @@ public class MainSurfaceView extends SurfaceView implements
 					if (Math.abs(curDis - lastDis) > 20) {
 						float scale = curDis / (lastDis * 0.1f * 10);
 						Log.d("debug", scale + "");
-						if (scale >= MIN_SCALE && scale <= MAX_SCALE) {
-							matrix.postScale(scale, scale, (lp.x + rp.x) / 2,
-									(lp.y + rp.y) / 2);
-						}
+						matrix.postScale(scale, scale, (lp.x + rp.x) / 2,
+								(lp.y + rp.y) / 2);
 					}
 				} else if (mode == DRAG) {
 					if (null == lastP) {
