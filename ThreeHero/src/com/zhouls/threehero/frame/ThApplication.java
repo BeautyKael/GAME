@@ -9,6 +9,7 @@ package com.zhouls.threehero.frame;
 
 import android.app.Application;
 
+import com.zhouls.threehero.manager.LSAssertManager;
 import com.zhouls.threehero.ui.utils.PhoneManager;
 
 /**
@@ -27,5 +28,6 @@ public class ThApplication extends Application {
 		super.onCreate();
 		// ≥ı ºªØphone
 		PhoneManager.getInstance().init(this);
+		LSAssertManager.init(this);
 	}
 }

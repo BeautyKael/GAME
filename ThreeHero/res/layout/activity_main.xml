@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <com.zhouls.threehero.ui.view.MainSurfaceView
+    <com.zhouls.threehero.ui.view.LSGameSurfaceView
         android:id="@+id/three"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

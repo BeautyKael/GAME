@@ -36,7 +36,7 @@ public class BaseControllerView extends RelativeLayout implements
 
 	private void init(Context context) {
 		LayoutInflater layoutInflater = LayoutInflater.from(context);
-		View view = layoutInflater.inflate(R.layout.lib_controller, null);
+		View view = layoutInflater.inflate(R.layout.layout_game_controller, null);
 		btnLeft = (Button) view.findViewById(R.id.lib_controller_left);
 		btnRight = (Button) view.findViewById(R.id.lib_controller_right);
 		btnAttack = (Button) view.findViewById(R.id.lib_controller_attack);

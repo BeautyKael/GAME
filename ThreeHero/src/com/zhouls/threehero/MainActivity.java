@@ -4,14 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import android.app.Activity;
-import android.media.AudioManager;
-import android.media.SoundPool;
-import android.media.SoundPool.OnLoadCompleteListener;
 import android.os.Bundle;
 
 import com.lsgame.test.sound.GameSoundLoader;
 import com.lsgame.test.sound.GameSoundLoader.IOnLoadCompleteListener;
-import com.lsgame.test.sound.GameSoundPool;
 import com.zhouls.threehero.controller.IController;
 import com.zhouls.threehero.controller.view.BaseControllerView;
 import com.zhouls.threehero.ui.manager.HotSpotManager;
